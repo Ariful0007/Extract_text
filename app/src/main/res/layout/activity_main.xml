@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="400dp"
+       android:src="@drawable/galaxy"
+       android:id="@+id/image"
+       ></ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/image"
+        android:hint="Display image text"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/display_image"
+        android:textAllCaps="false"
+        android:textSize="26sp"
+
+        >
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Check"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textAllCaps="false"
+        android:id="@+id/button"
+        android:layout_below="@id/display_image"
+        android:layout_marginTop="10dp"
+
+        ></Button>
+
+</RelativeLayout>
